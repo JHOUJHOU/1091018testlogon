@@ -19,7 +19,3 @@ var data= [{
     "password": "FJOYSZAM"
 
 }];
-<<<<<<< HEAD
-=======
-
->>>>>>> 3e00b955eb8d3d8a3d7dafe13cb1d08cacd3f3b1

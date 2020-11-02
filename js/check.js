@@ -11,9 +11,8 @@ document.getElementById('login').onclick = function(){
             var passwordid = document.querySelector('.password');
             usernameid.innerHTML = '平台帳號 : ' + data[i].username;
             passwordid.innerHTML = '平台密碼 : ' + data[i].password;
+            
             return;
-        }else{
-            document.querySelector('.unlogin').innerHTML = '1';
         }
     }
 }

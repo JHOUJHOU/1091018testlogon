@@ -86,42 +86,51 @@ table {
     margin: 0 auto;
     width: 1200px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column ;
     justify-content: space-between;
 }
 .body-item{
     display: block;
-
     background: #FFCBB3; /*橘色*/
     /*background: #D9B3B3; /*咖啡色*/
     /*background: #FFFFAA; /*黃色*/
-    font-size: 22px;
+    /*background: #DAB1D5; /*紫色*/
+    font-size: 26px;
     font-family:DFKai-sb;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
+    line-height:30px;
+}
+.body-item h2,h4{
+    font-weight: bold;
+    font-size: 28px;
 }
 .body-item ol{
-    padding-left: 90px;
+    padding-left: 45px;
 }
 .body-item li{
     list-style-type:decimal;
     line-height:30px;
+
 }
 .signin-item{
-    width: 350px;
-    font-size: 26px;
-    font-family:DFKai-sb;
-    margin-top: 25px;
     padding-left: 15px;
-    line-height:40px;
    /*background: #FFFFAA; /*黃色*/
    /*background: #DEFFAC; /*綠色*/
-   background: #DAB1D5; /*紫色*/
+   /*background: #DAB1D5; /*紫色*/
    /*background: #FFCBB3; /*橘色*/
    /*background: #D9B3B3; /*咖啡色*/
    /*background: #FFAAD5; /*粉紅色*/
 
+}
+.body-item p{
+    color: blue;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.body-item a{
+    color:blue;
 }
 .footer{
     margin: 0 auto;

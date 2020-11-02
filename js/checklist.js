@@ -35,12 +35,10 @@ var data= [{
 
 },
 {
-    "class": "四資四一",
-    "strid": "410912005",
-    "name": "白小名",
-    "strpasssword": "1115",
-    "username": "1080C-28514039",
-    "password": "QEZHIYPX",
+    "stuid": "510912001",
+                "stupassword": "9702",
+                "username": "1080T-86419207",
+                "password": "FJOYSZAM"
 
 }];
 

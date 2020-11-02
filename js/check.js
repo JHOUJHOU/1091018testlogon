@@ -32,7 +32,7 @@ document.ready(function(){
         stupassword=$("#loginpassword").val();
         $.ajax({
             type: "POST",
-            url: "turnpage1.php",
+            url: "data.php",
             data: {
                 "login" : stu,
                 "data" : stupassword
